@@ -1,0 +1,9 @@
+# GetOfficeRequest
+
+
+## Fields
+
+| Field              | Type               | Required           | Description        |
+| ------------------ | ------------------ | ------------------ | ------------------ |
+| `company`          | *Long*             | :heavy_check_mark: | Id of the company  |
+| `office`           | *Long*             | :heavy_check_mark: | Id of the office   |

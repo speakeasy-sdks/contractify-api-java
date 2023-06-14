@@ -1,0 +1,10 @@
+# UpdateDocumentRequest
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `documentWrite`                                                                                | [Contractify.ContractifyAPI.models.shared.DocumentWrite](../../models/shared/DocumentWrite.md) | :heavy_minus_sign:                                                                             | N/A                                                                                            |
+| `company`                                                                                      | *Long*                                                                                         | :heavy_check_mark:                                                                             | Id of the company                                                                              |
+| `document`                                                                                     | *Long*                                                                                         | :heavy_check_mark:                                                                             | Id of the document                                                                             |

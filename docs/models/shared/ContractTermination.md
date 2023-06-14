@@ -1,0 +1,10 @@
+# ContractTermination
+
+
+## Fields
+
+| Field                                                                           | Type                                                                            | Required                                                                        | Description                                                                     | Example                                                                         |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `isTerminableAtAnyTime`                                                         | *Boolean*                                                                       | :heavy_minus_sign:                                                              | N/A                                                                             |                                                                                 |
+| `terminationDate`                                                               | [LocalDate](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html) | :heavy_minus_sign:                                                              | N/A                                                                             | 2021-11-30                                                                      |
+| `terminationDuration`                                                           | *String*                                                                        | :heavy_minus_sign:                                                              | N/A                                                                             | P1M                                                                             |

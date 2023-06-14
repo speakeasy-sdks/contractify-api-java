@@ -1,0 +1,9 @@
+# CreateDepartmentRequest
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `departmentWrite`                                                                                  | [Contractify.ContractifyAPI.models.shared.DepartmentWrite](../../models/shared/DepartmentWrite.md) | :heavy_minus_sign:                                                                                 | N/A                                                                                                |
+| `company`                                                                                          | *Long*                                                                                             | :heavy_check_mark:                                                                                 | Id of the company                                                                                  |
