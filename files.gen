@@ -12,7 +12,6 @@ lib/src/main/java/Contractify/ContractifyAPI/Tasks.java
 lib/src/main/java/Contractify/ContractifyAPI/Users.java
 lib/src/main/java/Contractify/ContractifyAPI/ContractifyProduction.java
 .gitattributes
-.gitignore
 gradle/wrapper/gradle-wrapper.jar
 gradle/wrapper/gradle-wrapper.properties
 gradlew
