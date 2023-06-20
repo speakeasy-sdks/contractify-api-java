@@ -6,7 +6,7 @@
 ### Gradle
 
 ```groovy
-implementation 'Contractify.ContractifyAPI:ContractifyAPI:1.1.0'
+implementation 'Contractify.ContractifyAPI:ContractifyAPI:1.1.1'
 ```
 <!-- End SDK Installation -->
 
