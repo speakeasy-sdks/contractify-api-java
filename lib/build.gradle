@@ -41,7 +41,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'Contractify'
             artifactId = 'ContractifyAPI'
-            version = '1.1.1'
+            version = '1.1.2'
 
             from components.java
 
