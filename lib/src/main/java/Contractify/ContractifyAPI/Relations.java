@@ -39,7 +39,7 @@ public class Relations {
         SerializedBody serializedRequestBody = Contractify.ContractifyAPI.utils.Utils.serializeRequestBody(request, "relationWrite", "json");
         req.setBody(serializedRequestBody);
 
-        req.addHeader("Accept", "application/json;q=1, application/json;q=0.8, application/json;q=0.5, application/json;q=0");
+        req.addHeader("Accept", "application/json");
         req.addHeader("user-agent", String.format("speakeasy-sdk/%s %s %s %s", this.sdkConfiguration.language, this.sdkConfiguration.sdkVersion, this.sdkConfiguration.genVersion, this.sdkConfiguration.openapiDocVersion));
         
         HTTPClient client = Contractify.ContractifyAPI.utils.Utils.configureSecurityClient(this.sdkConfiguration.defaultClient, security);
@@ -104,7 +104,7 @@ public class Relations {
         req.setMethod("DELETE");
         req.setURL(url);
 
-        req.addHeader("Accept", "application/json;q=1, application/json;q=0.8, application/json;q=0.5, application/json;q=0");
+        req.addHeader("Accept", "application/json");
         req.addHeader("user-agent", String.format("speakeasy-sdk/%s %s %s %s", this.sdkConfiguration.language, this.sdkConfiguration.sdkVersion, this.sdkConfiguration.genVersion, this.sdkConfiguration.openapiDocVersion));
         
         HTTPClient client = Contractify.ContractifyAPI.utils.Utils.configureSecurityClient(this.sdkConfiguration.defaultClient, security);
@@ -171,7 +171,7 @@ public class Relations {
         req.setMethod("GET");
         req.setURL(url);
 
-        req.addHeader("Accept", "application/json;q=1, application/json;q=0.8, application/json;q=0.5, application/json;q=0");
+        req.addHeader("Accept", "application/json");
         req.addHeader("user-agent", String.format("speakeasy-sdk/%s %s %s %s", this.sdkConfiguration.language, this.sdkConfiguration.sdkVersion, this.sdkConfiguration.genVersion, this.sdkConfiguration.openapiDocVersion));
         
         HTTPClient client = Contractify.ContractifyAPI.utils.Utils.configureSecurityClient(this.sdkConfiguration.defaultClient, security);
@@ -236,7 +236,7 @@ public class Relations {
         req.setMethod("GET");
         req.setURL(url);
 
-        req.addHeader("Accept", "application/json;q=1, application/json;q=0.7, application/json;q=0");
+        req.addHeader("Accept", "application/json");
         req.addHeader("user-agent", String.format("speakeasy-sdk/%s %s %s %s", this.sdkConfiguration.language, this.sdkConfiguration.sdkVersion, this.sdkConfiguration.genVersion, this.sdkConfiguration.openapiDocVersion));
         java.util.List<NameValuePair> queryParams = Contractify.ContractifyAPI.utils.Utils.getQueryParams(Contractify.ContractifyAPI.models.operations.ListRelationsRequest.class, request, null);
         if (queryParams != null) {
@@ -301,7 +301,7 @@ public class Relations {
         SerializedBody serializedRequestBody = Contractify.ContractifyAPI.utils.Utils.serializeRequestBody(request, "relationWrite", "json");
         req.setBody(serializedRequestBody);
 
-        req.addHeader("Accept", "application/json;q=1, application/json;q=0.8, application/json;q=0.6, application/json;q=0.4, application/json;q=0");
+        req.addHeader("Accept", "application/json");
         req.addHeader("user-agent", String.format("speakeasy-sdk/%s %s %s %s", this.sdkConfiguration.language, this.sdkConfiguration.sdkVersion, this.sdkConfiguration.genVersion, this.sdkConfiguration.openapiDocVersion));
         
         HTTPClient client = Contractify.ContractifyAPI.utils.Utils.configureSecurityClient(this.sdkConfiguration.defaultClient, security);
